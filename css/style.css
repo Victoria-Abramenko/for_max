@@ -122,12 +122,11 @@ a {
   border-radius: 20px;
 }
 .assortment_img {
-  transform: translate3d(0px, -40px, 0px);
+  width: 100%;
 }
 .assortment_h {
   font-size: 26px;
   text-align: center;
-  transform: translate3d(0px, -58px, 0px);
 }
 .assortment_p {
   color: #24110a;
