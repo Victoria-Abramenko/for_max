@@ -56,7 +56,7 @@ img:hover {
   text-decoration: none;
 }
 .main_color {
-  background-image: url("/img/bg2.png");
+  background-image: url("../img/bg2.png");
   background-size: 20%;
   background-repeat: no-repeat;
   background-position: top right;
@@ -105,7 +105,7 @@ img:hover {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  background-image: url("/img/bg1.png");
+  background-image: url("../img/bg1.png");
   background-size: 15%;
   background-repeat: no-repeat;
   background-position: bottom right;
