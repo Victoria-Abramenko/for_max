@@ -33,9 +33,7 @@ a {
 a:hover {
   color: #fee6cf;
 }
-img:hover {
-  opacity: 60%;
-}
+
 .menu_box {
   width: 100%;
   position: sticky;
@@ -115,6 +113,9 @@ img:hover {
 }
 .reviews_img {
   width: 100%;
+}
+.reviews_img:hover {
+  opacity: 60%;
 }
 
 .our_assortment {
