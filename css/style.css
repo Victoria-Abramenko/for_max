@@ -59,12 +59,12 @@ img:hover {
   background-image: url("/img//bg2.png");
   background-size: 20%;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top right;
 }
 .main_box {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
 }
 .left_half {
@@ -92,6 +92,7 @@ img:hover {
   font-size: 24px;
 }
 .icons {
+  margin: 0 10px;
   width: 40px;
 }
 .reviews_color {
