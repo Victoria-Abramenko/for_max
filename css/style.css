@@ -182,3 +182,8 @@ a:hover {
 .img_table_card {
   width: 100%;
 }
+.maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
