@@ -6,7 +6,6 @@
 body {
   margin: 0 auto;
   height: 100%;
-  width: 99%;
   background-color: #ccad90;
   font-family: "Tektur";
   color: #432b25;
@@ -182,13 +181,17 @@ a:hover {
 .img_table_card {
   width: 100%;
 }
+.description {
+  margin: 0 auto;
+  width: 94%;
+}
 .maps {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@media (max_width:600px){
+@media (max-width: 600px){
   body {
     font-size: 18px;
   }
@@ -214,6 +217,12 @@ a:hover {
   }
   .reviews_box {
     flex-direction: column;
+  }
+  .reviews_link {
+    width: 80%;
+  }
+  .header_text {
+    font-size: 24px;
   }
 
 }
