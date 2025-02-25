@@ -187,3 +187,33 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max_width:600px){
+  body {
+    font-size: 18px;
+  }
+  .menu_box {
+    position: static;
+  }
+  .menu_list {
+    gap: 4px;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+  .main_box {
+    flex-direction: column;
+  }
+  .contacts_box {
+    flex-direction: column;
+  }
+  .our_assortment {
+    flex-direction: column;
+  }
+  .assortment_div {
+    width: 80%;
+  }
+  .reviews_box {
+    flex-direction: column;
+  }
+
+}
